@@ -1,0 +1,21 @@
+import math
+
+# 1. Kubus
+def luas_kubus(sisi):
+    return 6 * sisi * sisi
+
+# 2. Balok
+def luas_balok(panjang, lebar, tinggi):
+    return 2 * (panjang * lebar + panjang * tinggi + lebar * tinggi)
+
+# 3. Bola
+def luas_bola(jari_jari):
+    return 4 * math.pi* jari_jari * jari_jari
+
+# 4. Tabung
+def luas_tabung(jari_jari, tinggi):
+    return 2 * math.pi * jari_jari * (jari_jari + tinggi)
+
+# 5. Kerucut
+def luas_kerucut(jari_jari, selimut):
+    return math.pi * jari_jari * (jari_jari + selimut)
